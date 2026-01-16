@@ -1,0 +1,148 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Design System Tokens */
+:root {
+  /* Primary Colors */
+  --color-primary: #016CB7;
+  --color-primary-dark: #006CB7;
+  --color-primary-light: #A6C8FF;
+  --color-primary-lighter: #E7EFFF;
+  
+  /* Neutral Colors */
+  --color-neutral-900: #21272A;
+  --color-neutral-800: #0D2A45;
+  --color-neutral-600: #697077;
+  --color-neutral-400: #C0C4CF;
+  --color-neutral-200: #DDE1E6;
+  --color-neutral-100: #F4F4F4;
+  --color-neutral-50: #FAFAFA;
+  --color-white: #FFFFFF;
+  
+  /* Semantic Colors */
+  --color-success: #24A148;
+  --color-success-light: #D1F4DB;
+  --color-warning: #F1C21B;
+  --color-warning-light: #FDF5D9;
+  --color-error: #DA1E28;
+  --color-error-light: #FFD7D9;
+  --color-info: #0062FF;
+  --color-info-light: #D0E2FF;
+  
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
+  
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  
+  /* Typography */
+  --font-primary: 'Open Sans', sans-serif;
+  --font-secondary: 'Roboto', sans-serif;
+  --font-condensed: 'Open Sans Condensed', sans-serif;
+}
+
+/* Typography Defaults */
+body {
+  font-family: var(--font-primary);
+  color: var(--color-neutral-900);
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: var(--font-condensed);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.2;
+  color: var(--color-neutral-900);
+}
+
+h2 {
+  font-family: var(--font-condensed);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  color: var(--color-neutral-900);
+}
+
+h3 {
+  font-family: var(--font-condensed);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--color-neutral-900);
+}
+
+h4 {
+  font-family: var(--font-condensed);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  color: var(--color-neutral-900);
+}
+
+h5 {
+  font-family: var(--font-condensed);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--color-neutral-900);
+}
+
+h6 {
+  font-family: var(--font-condensed);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--color-neutral-900);
+}
+
+p {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+label {
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+small {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+span {
+  font-family: var(--font-primary);
+}
+
+button {
+  font-family: var(--font-condensed);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+input, textarea, select {
+  font-family: var(--font-primary);
+}
+
+div {
+  font-family: var(--font-primary);
+}
